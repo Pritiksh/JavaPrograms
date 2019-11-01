@@ -1,5 +1,5 @@
 package programs;
-//Replace a character at a specific index in a String in Java
+//Replace a character at a specific index in a String in Java method 1
 public class ReplaceChar {
 
 	public static void main(String[] args) {
