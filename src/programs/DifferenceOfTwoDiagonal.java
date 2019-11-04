@@ -1,5 +1,5 @@
 package programs;
-//Find difference between sums of two diagonals java program method 1 
+//Find difference between sums of two diagonals java program method 2 
 
 public class DifferenceOfTwoDiagonal {
 
