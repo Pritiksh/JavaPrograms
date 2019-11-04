@@ -1,5 +1,5 @@
 package programs;
-
+//Program to Check both arrays equal or not
 public class BothArrayEualOrNot {
 
 	public static void main(String[] args) {
