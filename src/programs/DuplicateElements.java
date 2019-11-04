@@ -2,7 +2,7 @@ package programs;
 
 import java.util.HashSet;
 
-//Write a java program to find duplicate elements from array
+//Write a java program to find duplicate elements from string array
 public class DuplicateElements {
 
 	public static void main(String[] args) {
