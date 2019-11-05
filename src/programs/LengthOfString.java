@@ -1,5 +1,5 @@
 package programs;
-//Write a program to find length of a string without using length().
+// program to find length of a string without using length().
 
 public class LengthOfString {
 
