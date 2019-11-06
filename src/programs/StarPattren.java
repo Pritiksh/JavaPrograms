@@ -1,6 +1,6 @@
 package programs;
 
-//program to print below star pattern:
+//program to print below star pattern
 /*
 *
 ***
