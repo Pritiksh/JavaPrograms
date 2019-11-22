@@ -1,5 +1,5 @@
 package programs;
-//Find second largest element from array
+//Find second largest element from array method 1
 public class secondLargest {
 
 	public static void main(String[] args) {
