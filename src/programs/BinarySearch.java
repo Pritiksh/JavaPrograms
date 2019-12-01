@@ -1,5 +1,6 @@
 package programs;
-
+//Binary Search
+//Time complexity o(logn)
 public class BinarySearch {
 	// Returns index of x if it is present in arr[],
 	// else return -1
