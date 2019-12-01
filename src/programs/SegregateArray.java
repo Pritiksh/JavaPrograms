@@ -1,5 +1,6 @@
 package programs;
-
+//Java code to Segregate 0s and 1s in an array
+//Time Complexity : O(n)
 public class SegregateArray {
 	static void segregate0and1(int arr[], int n) {
 		int count = 0; // counts the no of zeros in arr
