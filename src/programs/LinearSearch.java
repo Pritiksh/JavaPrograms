@@ -5,29 +5,34 @@ package programs;
 //return -1 
 //The time complexity  is O(n)
 public class LinearSearch {
-	// This function returns index of element x in arr[]
-	static int search(int arr[], int n, int x) {
-		for (int i = 0; i < n; i++) {
-			// Return the index of the element if the element
-			// is found
-			if (arr[i] == x)
-				return i;
+	static int BinarySearch(int arr[],int x){
+		int l=0,r=arr.length-1,m;
+		while(l<=r){
+			m=l+(r-l)/2;
+			if(arr[m]==x){
+				return m;
+			}
+			if(arr[m]<x){
+				l=m+1;
+			}
+			else{
+				r=m-1;
+			}
 		}
-
-		// return -1 if the element is not found
 		return -1;
 	}
-
-	public static void main(String[] args) {
-		int[] arr = { 3, 4, 1, 7, 5 };
-		int n = arr.length;
-
-		int x = 4;
-
-		int index = search(arr, n, x);
-		if (index == -1)
-			System.out.println("Element is not present in the array");
-		else
-			System.out.println("Element found at position " + index);
+public static void main(String[] args) {
+	int arr[]={1,3,5,7,9,10};
+	int n=arr.length;
+	int x=9;
+	int res=BinarySearch(arr,x);
+	if(res==-1){
+		System.out.println("Element not present");
 	}
+	else{
+		System.out.println("Element found at index"+res);
+	}
+	
+}	
+	
 }
